@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Recipe Book</title>
+    <style>
+        body {
+            background-image: url('https://thumbs.dreamstime.com/b/vibrant-display-abstract-fast-food-like-burgers-pizza-fries-pops-against-bright-yellow-background-generative-ai-341821587.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 19px;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        header,
+        section {
+            padding: 20px;
+        }
+
+        .box {
+            width: 600px;
+            height: 800px;
+            border: 2px solid #ffb731;
+            ;
+            border-radius: 20px;
+            background-color: #ffb731
+        }
+
+        .m,
+        p {
+            text-align: center;
+        }
+
+        img {
+            border-radius: 10px;
+          
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: black;
+            color: white;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+
+
+
+        .categories a {
+            display: inline-block;
+            padding: 10px 15px;
+            margin: 5px;
+            background-color: #272424;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .categories a:hover {
+            background-color: #d93f22;
+        }
+
+
+
+        footer p {
+            color: white;
+            margin: 5px;
+
+        }
+
+        nav,
+        footer {
+            background-color: #272424;
+            padding: 10px;
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <nav>
+        <a href="index.html"> Home</a>
+        <a href="AddRecipe.html"> Add Recipe</a>
+        <a href="RecipeList.html"> Recipe List</a>
+        <a href="recip-details.html">Recip Details Page</a>
+    </nav>
+    <!--Welcome section-->
+    <header>
+        <h1>Welcome to my recipe book</h1>
+        <p><i> decliciouse recipes for every occasion ! Discover a world of flavor with our carefully curated collection
+                of recipes! Whether you're a beginner in the kitchen or a seasoned chef, My Recipe Book offers something
+                for everyone. From quick weekday meals to indulgent desserts, healthy options to festive treats, we
+                bring you step-by-step guides to make cooking fun and easy. Explore delicious recipes for every occasion
+                and bring your culinary creativity to life!</i>
+        </p>
+    </header>
+    <!--Recipe of the Day-->
+
+    <section>
+        <div class="box">
+            <h2 class="m"> Special Menue </h2>
+            <p><i> Madina Resturant is the best resturant that located in Afghanistan which provid Afghany , Foreigner
+                    foods . Look at our short video at bellow for more detais you can see other pages<i></p>
+            <div class="recipe-images">
+                <img src="https://www.eatingwell.com/thmb/DFxDNR8ctWrA3IodikNadQHXSpY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Prep-square-111624-c7740004462442f9bc2c35dbe5c25bb1.gif"
+                    alt=" video" height="600" width="600">
+                <Button><a href=" RecipeList.html"> view full recipe</a></Button>
+            </div>
+
+
+        </div>
+
+    </sectioN>
+    <!--featured categories-->
+    <section class="=categories--">
+        <h2>Featured Categories</h2>
+        <a href="#">categories</a>
+        <a href="#">Desserts</a>
+        <a href="#">Vegan</a>
+        <a href="#"> Quick Meals</a>
+        <a href="#">Healthy</a>
+        <a href="#">Breakfast</a>
+    </section>
+
+
+    <!--Footer-->
+    <footer>
+        <p><strong>Madina Elyasi</strong></p>
+        <p>Email: madinaelyasi41@gmail.com</p>
+        <p>phone : 0796278554</p>
+        <p>Address : Balkh , Afghanistan</p>
+    </footer>
+</body>
+
+</html>

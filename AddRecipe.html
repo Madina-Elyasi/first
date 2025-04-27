@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe</title>
+    <style>
+        body {
+            background-image: url('https://thumbs.dreamstime.com/b/vibrant-display-abstract-fast-food-like-burgers-pizza-fries-pops-against-bright-yellow-background-generative-ai-341821587.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 19px;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        header,
+        section {
+            padding: 20px;
+        }
+
+        footer p {
+            color: white;
+            margin: 5px;
+
+        }
+
+        nav,
+        footer {
+            background-color: #272424;
+            padding: 10px;
+            text-align: center;
+            font-style: italic;
+            margin-top: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgda(0, 0, 0, 0.1)
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+
+        }
+
+        input[type="text"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+
+        }
+
+        input[type="submit"] {
+            margin-top: 20px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            border-radius: 5px;
+            font-size: 16px;
+            padding: 12px 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <nav>
+        <a href="index.html"> Home</a>
+        <a href="AddRecipe.html"> Add Recipe</a>
+        <a href="RecipeList.html"> Recipe List</a>
+        <a href="recip-details.html">Recip Details Page</a>
+    </nav>
+    <!-- page Header-->
+    <header>
+        <h1>Add your Delicious Recioe</h1>
+        <p><i>Fill out the form below to share your recipe with the world</i></p>
+    </header>
+
+    <!--Recive submission Foem-->
+    <form>
+
+        <label for="name">Recipe Name :</label>
+        <input type="text" id="name" name="name" placeholder="e.g  chocolate cake " required>
+        <label for="ingredient">Ingrediens :</label>
+        <textarea name="instraction" id="instraction" rows="6" placeholder="Describe how to cook" required></textarea>
+        <label for="image">Image URL</label>
+        <input type="text" id="image" name="image" placeholder="" required>
+        <label for="category"> Recipe Category :</label>
+        <select name="category" id="category" required>
+            <option value=""> select category :</option>
+            <option value="Desserts">Dessert</option>
+            <option value="Appetizers">Appetizers</option>
+            <option value="Main Dishes">Main Dishes</option>
+            <option value="Quick Meal">Quick Meal</option>
+            <option value="Vegan">Vegan</option>
+            <option value="Breakfast">Breakfast</option>
+            <input type="submit" value="Add Recip">
+        </select>
+    </form>
+    <!--Footer-->
+    <footer>
+        <p><strong>Madina Elyasi</strong></p>
+        <p>Email: madinaelyasi41@gmail.com</p>
+        <p>phone : 0796278554</p>
+        <p>Address : Balkh , Afghanistan</p>
+    </footer>
+</body>
+
+</html>

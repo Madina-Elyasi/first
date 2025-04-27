@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Lisy</title>
+    <style>
+        body {
+            background-image: url('https://thumbs.dreamstime.com/b/vibrant-display-abstract-fast-food-like-burgers-pizza-fries-pops-against-bright-yellow-background-generative-ai-341821587.jpg ');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 19px;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 350px);
+            gap: 20px;
+            padding: 30px;
+            margin: 0 auto;
+            max-width: 800px;
+
+
+
+
+
+
+        }
+
+        .recipe-card {
+            background-color: rgb(255, 255, 255, 0.9);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
+            text-align: center;
+            border: blueviolet;
+            border-radius: 20px
+        }
+
+        .recipe-card img {
+            width: 100%;
+            height: 60%;
+            object-fit: cover
+        }
+
+        .card-content {
+            padding: 15px;
+            text-align: center;
+
+        }
+
+        .card-content h3 {
+            margin: 0 0 10px;
+        }
+
+        .card-content p {
+            margin: 0 0 15px;
+            color: #555;
+        }
+
+
+
+        footer p {
+            color: white;
+            margin: 5px;
+
+        }
+
+        nav,
+        footer {
+            background-color: #272424;
+            padding: 10px;
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <nav>
+        <a href="index.html"> Home</a>
+        <a href="AddRecipe.html"> Add Recipe</a>
+        <a href="RecipeList.html"> Recipe List</a>
+        <a href="recip-details.html">Recip Details Page</a>
+    </nav>
+    <!--Header-->
+    <header>
+        <h1 style="text-align: center;">Recip Gallery</h1>
+    </header>
+    <div class="container">
+        <main>
+            <section class="gallery" id="recipeGallery">
+                <article class="recipe-card" data-category="Desserts">
+
+
+                    <img src="https://giffiles.alphacoders.com/223/2230.gif" alt="Cake">
+                    <div class="card-content">
+                        <h3>Chocolate Cake</h3>
+                        <p>Rich and creamy chocolate cake with frosting.</p>
+                        <a href="recip-details.html" class="details-link">View Recipe</a>
+                    </div>
+                </article>
+                <article class="recipe-card" data-category="Vegan">
+                    <img src="https://media.tenor.com/A3z9MU9YTBQAAAAM/salad-mix.gif" alt="Vegan Salad">
+                    <div class="card-content">
+                        <h3>Vegan Salad</h3>
+                        <p>A refreshing mix of greens and organic veggies.</p>
+                        <a href="recip-details.html" class="details-link">View Recipe</a>
+                    </div>
+                </article>
+                <article class="recipe-card" data-category="Main">
+                    <img src="https://cattlebarontableviewblouberg.wordpress.com/wp-content/uploads/2016/09/grilling-gif.gif"
+                        alt="Grilled Chicken">
+                    <div class="card-content">
+                        <h3>Grillek Chicken</h3>
+                        <p>Juicy grilled chicken with herbs and spices.</p>
+                        <a href="recip-details.html" class="details-link">View Recipe</a>
+                    </div>
+                </article>
+
+                <article class="recipe-card" data-category="Drinks">
+                    <img src="https://i.gifer.com/8Q4I.gif" alt="Fruit Smoothie">
+                    <div class="card-content">
+                        <h3>Drinks</h3>
+                        <p>Cool Drinks</p>
+                        <a href="recip-details.html" class="details-link">View Recipe</a>
+                    </div>
+                </article>
+
+                <article class="recipe-card" data-category="Breakfast">
+                    <img src="https://media.tenor.com/zs04pa63KYQAAAAM/mcdonald%27s-breakfast.gif" alt="Fruit Smoothie">
+                    <div class="card-content">
+                        <h3>Break Fast</h3>
+                        <p>Hot and refreshing Break fast.</p>
+                        <a href="recip-details.html" class="details-link">View Recipe</a>
+                    </div>
+                </article>
+
+                <article class="recipe-card" data-category="fruits">
+                    <img src="https://qbsmoothies.com.au/wp-content/uploads/2024/11/mango-animation-1-1.gif"
+                        alt="Fruit Smoothie">
+                    <div class="card-content">
+                        <h3>Fruit Smoothie</h3>
+                        <p>Cool and refreshing blend of seasonal fruits.</p>
+                        <a href="recip-details.html" class="details-link">View Recipe</a>
+                    </div>
+
+                </article>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p><strong>Madina Elyasi</strong></p>
+        <p>Email: madinaelyasi41@gmail.com</p>
+        <p>phone : 0796278554</p>
+        <p>Address : Balkh , Afghanistan</p>
+    </footer>
+</body>
+
+</html>
